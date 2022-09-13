@@ -16,6 +16,8 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 h1, h2, h3 {font-family: 'Combo';}
 
 //Gradient provided by @_Ighosh//
@@ -41,12 +43,8 @@ h1, h2, h3 {font-family: 'Combo';}
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
  Color:white;
  &:hover {
-  color:white;
-  opacity:0.5;
- }
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
  color:white;
  opacity:0.5;
+ }
+ 
 }
